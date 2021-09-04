@@ -257,7 +257,7 @@
     "/packages/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of packages documents",
+        "description": "Retrieve the number of packages documents",
         "responses": {
           "200": {
             "description": "Retrieve packages document(s)",

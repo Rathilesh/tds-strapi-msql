@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/04/2021 1:16:09 PM"
+    "x-generation-date": "09/04/2021 11:01:21 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1445,7 +1445,7 @@
     "/packages/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of packages documents",
+        "description": "Retrieve the number of packages documents",
         "responses": {
           "200": {
             "description": "Retrieve packages document(s)",
@@ -1961,7 +1961,7 @@
     "/properties-images/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of properties-images documents",
+        "description": "Retrieve the number of properties-images documents",
         "responses": {
           "200": {
             "description": "Retrieve properties-images document(s)",
@@ -2480,7 +2480,7 @@
     "/properties/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of properties documents",
+        "description": "Retrieve the number of properties documents",
         "responses": {
           "200": {
             "description": "Retrieve properties document(s)",
@@ -5108,6 +5108,9 @@
               },
               "blocked": {
                 "type": "boolean"
+              },
+              "preferedLanguage": {
+                "type": "string"
               }
             }
           },

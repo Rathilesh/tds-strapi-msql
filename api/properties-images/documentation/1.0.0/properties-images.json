@@ -262,7 +262,7 @@
     "/properties-images/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of properties-images documents",
+        "description": "Retrieve the number of properties-images documents",
         "responses": {
           "200": {
             "description": "Retrieve properties-images document(s)",

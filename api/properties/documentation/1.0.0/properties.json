@@ -257,7 +257,7 @@
     "/properties/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of properties documents",
+        "description": "Retrieve the number of properties documents",
         "responses": {
           "200": {
             "description": "Retrieve properties document(s)",
