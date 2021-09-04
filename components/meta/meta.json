@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_meta_metas",
+  "info": {
+    "name": "META",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "meta_name": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_media_files_media_files",
+  "info": {
+    "name": "media_files",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "file": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

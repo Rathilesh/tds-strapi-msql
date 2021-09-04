@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties_images",
+  "info": {
+    "name": "properties_images",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {}
+}

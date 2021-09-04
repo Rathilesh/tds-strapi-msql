@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_globalseo_global_defoault_s",
+  "info": {
+    "name": "globalDefoault ",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "richtext"
+    },
+    "ShareImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

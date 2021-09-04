@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_posts",
+  "info": {
+    "name": "blog post",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "post_name": {
+      "type": "string",
+      "required": true
+    },
+    "post_content": {
+      "type": "richtext",
+      "required": true
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-files.media-files"
+    },
+    "admin_user": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "post_slug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

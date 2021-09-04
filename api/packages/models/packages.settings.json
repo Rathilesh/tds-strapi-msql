@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "name": "packages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "package_name": {
+      "type": "string",
+      "required": true
+    },
+    "package_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "package_rate": {
+      "type": "decimal",
+      "required": true
+    },
+    "property": {
+      "model": "properties",
+      "via": "packages"
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-files.media-files"
+    }
+  }
+}

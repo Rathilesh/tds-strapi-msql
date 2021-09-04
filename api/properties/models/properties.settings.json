@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "name": "properties",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "rate": {
+      "type": "decimal"
+    },
+    "packages": {
+      "via": "property",
+      "collection": "packages"
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-files.media-files"
+    }
+  }
+}
